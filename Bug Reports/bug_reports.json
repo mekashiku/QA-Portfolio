@@ -1,0 +1,64 @@
+{
+  "Bug_id": "1",
+  "Priority": "High",
+  "Summary": "Unable to add new item to the Cart",
+  "Steps to reproduce": {
+    "1": "Go to any Category",
+    "2": "Add any item to the Cart",
+    "3": "Go to item 'x' via the search bar",
+    "4": "Add item 'x' to the Cart",
+    "5": "Go to the Cart"
+  },
+  "Expected result": "The Cart should contain 2 items",
+  "Actual result": "The Cart contains 1 item"
+}
+
+{
+  "Bug_id": "2",
+  "Priority": "Critical",
+  "Summary": "Total price does not reflect to the product quantity",
+  "Steps to reproduce": {
+    "1": "Go to any Category",
+    "2": "Add any item to the Cart",
+    "3": "Go to the Cart",
+    "4": "Change quantity of the product",
+    "5": "Go to the Payment page",
+    "6": "Observe the total price"
+  },
+  "Expected result": "Total price should reflect the quantity of the products",
+  "Actual result": "Total price display as for only 1 item"
+}
+
+{
+  "Bug_id": "3",
+  "Priority": "High",
+  "Summary": "When clicking the Upgrade button, the plan is not upgraded",
+  "Steps to reproduce": {
+    "1": "Go to http://www.examplewebsite.com",
+    "2": "Click the Premium Plan Upgrade button when logged in"
+  },
+  "Expected result": "After clicking the Upgrade button, the massage 'Congratulations. You use now a Premium Plan.'",
+  "Actual result": "Error massage is displayed"
+}
+
+{
+  "Bug_id": "4",
+  "Priority": "High",
+  "Summary": "Search is not triggered when clicking the search button",
+  "Steps to reproduce": {
+    "1": "Go to http://www.examplewebsite.com",
+    "2": "Enter any search query in the top-right search bar (e.g. “Miami”)",
+    "3": "Click on “Search Now” or hit the enter key",
+    "4": "Change quantity of the product",
+    "5": "Scroll down and click on 'Sort by'",
+    "6": "Select the option 'Sort by price: High to Low'"
+  },
+  "Expected result": "After entering the town name “Miami”, available hotels in San Francisco should be displayed. If there are no such hotels, a corresponding message should be displayed, example: 'There are no hotels available in your town'.",
+  "Actual result": "No search results are displayed on a new browser page and the user doesn’t get any message or notification about what went wrong. The button 'Search now' does not show any implemented functionality."
+}
+
+
+
+
+
+
