@@ -12,3 +12,43 @@
   "Expected result":"Total price should reflect to the quantity of the product"
 }
 
+
+{
+  "TestCase_id":"2",
+  "Title":"Create to-do list",
+  "Steps":
+  {
+    "1":"Navigate to the Create new to-do list form",
+    "2":"Fill in all fields with valid test data",
+    "3":"Submit form"
+  },
+  "Expected result":"The newly created to-do list detail page is loaded and shows all the specified data."
+}
+
+{
+  "TestCase_id":"3",
+  "Title":"Update to-do list",
+  "Steps":
+  {
+    "1":"Navigate to the to-do list",
+    "2":"Click Update",
+    "3":"Fill in all fields with valid test data",
+    "4":"Submit form"
+  },
+  "Expected result":"The updated to-do list detail page is loaded and shows the newly entered data."
+}
+
+
+{
+  "TestCase_id":"4",
+  "Title":"Delete to-do list",
+  "Steps":
+  {
+    "1":"Navigate to the to-do list",
+    "2":"Click delete",
+    "3":"Confirm delete pop-up"
+  },
+  "Expected result":"The to-do list overview page is loaded, and the deleted to-do list is not listed."
+}
+
+
